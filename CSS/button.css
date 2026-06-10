@@ -1,0 +1,27 @@
+.swiper-button-prev{
+    color: aliceblue;
+    padding-left: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+@media (max-width: 767px) { 
+    .swiper-button-prev{
+        padding: 0;
+        opacity: 0;
+    }
+}
+
+.swiper-button-next{
+    color: aliceblue;
+    padding-right: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+@media (max-width: 767px) { 
+    .swiper-button-next{
+        padding: 0;
+        opacity: 0;
+    }
+}

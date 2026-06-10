@@ -1,0 +1,43 @@
+.spawner_prev{
+    background-color: none;
+    height: 80rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.spawner_next{
+    background-color: none;
+    height: 80rem;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.message {
+    position: absolute;
+    color: #ff0000;
+    font-family: monospace;
+    pointer-events: none;
+
+    animation: fade 4s forwards;
+    font-family: "Rubik", sans-serif;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

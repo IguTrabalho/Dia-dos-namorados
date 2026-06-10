@@ -1,0 +1,11 @@
+.text_heart{
+    width: 70%;
+
+    padding-top: 20%;
+    font-size: 20px;
+    color: rgb(255, 222, 222);
+    position: absolute;
+
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+}

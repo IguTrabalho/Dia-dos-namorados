@@ -1,0 +1,14 @@
+.carousel{
+
+    display: flex;
+
+    background-color: aliceblue;
+
+    height: 500px;
+    user-select: none;
+
+    border-radius: 10%;
+
+    margin-top: 50px;
+
+}
