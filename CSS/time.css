@@ -1,5 +1,5 @@
 .time{
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
 
     display: flex;
@@ -16,7 +16,7 @@
 }
 
 .time_text{
-    font-size: 60px;
+    font-size: 100px;
 
     color: rgb(255, 57, 57);
 
